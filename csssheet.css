@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 h1 {
+    
     text-align:center;
-    font-size:30;
-    color:rebeccapurple;
+    font-size:300;
+    color:blue;
+    font-family: 'Open Sans', sans-serif;
 
 
 
