@@ -5,13 +5,57 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="csssheet.css">
         
-        <script src="javascript.js"></script>
+        <script>
+        alert("Its a zombie apocolypse and you are going to encounter a zombie.");
+            let weapon = prompt("You look on the floor to choose a weapon and you have a sword, stake, and a slingshot available.  What do you choose?");
+            alert("You chose to defend yourself with the " + weapon + ".");
+
+            if(weapon === "stake"){
+                let randomNumber1 = Math.floor(Math.random()*10);
+
+                if(randomNumber1 >= 0 && randomNumber1 <= 6 ){
+                    alert("You have killed him!!");
+
+
+                }else if (randomNumber1 >=7 && randomNumber1 <=9){
+                    alert("You dead!!");
+
+                }
+
+
+            }else if(weapon === "sword"){
+                let randomNumber2 = Math.floor(Math.random()*10);
+                
+                if(randonumber2 >=0 && randomNumber2 <=4){
+                    alert("You have killed him!!")
+
+                }else if (randomNumber2 >=5 && randomNumber2 <= 9){
+                    alert("You dead!!");
+                }
+
+
+            }else if(weapon === "slingshot"){
+                let randomNumber3 = Math.floor(Math.random()*10);
+
+                if(randomNumber3 >=0 && randomNumber3 <=2){
+                    alert("You have killed him!!");
+
+                }else if (randomNumber3 >=3 && randomNumber3 <=9){
+                    alert("You dead!!");
+                }
+
+
+            }else{
+                alert("Invalid weapon!!!!");
+
+            }
+            </script>
     </head>
 
         <body>
-            <h1>
-                The Website
-            </h1>
+        
+        
+            
 
 
 
